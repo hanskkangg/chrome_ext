@@ -8,3 +8,18 @@ let willSmithImages = [
     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thesprucepets.com%2F12-types-of-goldfish-5525618&psig=AOvVaw0NG3Gb1AL7H1PPrfZUoU5o&ust=1738527783663000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiN4-mmo4sDFQAAAAAdAAAAABA-",
 ];
 
+//changing all the src to our saved random images
+
+const imgs = document.getElementsByTagName("img")
+
+for (let i=0;i<imgs.length;i++){
+
+    //Generating a random value based on the array length
+    const randomImg = Math.floor(Math.random() * willSmithImages.length)
+
+    //All the source images will be displayed along with the images from my array
+    imgs[i].src = willSmithImages[randomImg]
+}
+
+
+
