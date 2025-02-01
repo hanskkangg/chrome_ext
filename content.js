@@ -1,11 +1,11 @@
 let willSmithImages = [
-    "https://en.wikipedia.org/wiki/File:%E3%83%AF%E3%82%AD%E3%83%B320120701.JPG",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thesprucepets.com%2F12-types-of-goldfish-5525618&psig=AOvVaw0NG3Gb1AL7H1PPrfZUoU5o&ust=1738527783663000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiN4-mmo4sDFQAAAAAdAAAAABAI",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fanimal%2Fgoldfish&psig=AOvVaw0NG3Gb1AL7H1PPrfZUoU5o&ust=1738527783663000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiN4-mmo4sDFQAAAAAdAAAAABAR",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnn.com%2F2021%2F07%2F14%2Fus%2Ffootball-sized-goldfish-minnesota-lake-scn-trnd%2Findex.html&psig=AOvVaw0NG3Gb1AL7H1PPrfZUoU5o&ust=1738527783663000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiN4-mmo4sDFQAAAAAdAAAAABAa",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3D%2522gold%2Bfish%2522&psig=AOvVaw0NG3Gb1AL7H1PPrfZUoU5o&ust=1738527783663000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiN4-mmo4sDFQAAAAAdAAAAABAj",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fscience4fun.info%2Fgoldfish%2F&psig=AOvVaw0NG3Gb1AL7H1PPrfZUoU5o&ust=1738527783663000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiN4-mmo4sDFQAAAAAdAAAAABA1",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thesprucepets.com%2F12-types-of-goldfish-5525618&psig=AOvVaw0NG3Gb1AL7H1PPrfZUoU5o&ust=1738527783663000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiN4-mmo4sDFQAAAAAdAAAAABA-",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/%E3%83%AF%E3%82%AD%E3%83%B320120701.JPG/1200px-%E3%83%AF%E3%82%AD%E3%83%B320120701.JPG",
+    "https://www.thesprucepets.com/thmb/Ak_GGLe5X0Ng012VY9M1yzKtH34=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-523276509-3eaa888544a94e21a0edf8c348747b00.jpg",
+    "https://cdn.britannica.com/12/117212-050-3267CED6/Goldfish-behaviour-water-temperature.jpg",
+    "https://www.thesprucepets.com/thmb/wG_TRuYzYTm6HzKGH4Gc-XMV088=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1225367815-b3f1bf886bdc48be903292aa9b93fd94.jpg",
+    "https://stock.adobe.com/ca/images/png-goldfish-animal-white-background-pomacentridae/857042111",
+    "https://science4fun.info/wp-content/uploads/2020/02/goldfish-in-ocean.jpg",
+    "https://www.thesprucepets.com/thmb/81ho_ZljAHlR1awkBbRbIZGFdV0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1357746199-3cece2e5724b4a3e848ce983a3be6557.jpg",
 ];
 
 //changing all the src to our saved random images
@@ -23,3 +23,11 @@ for (let i=0;i<imgs.length;i++){
 
 
 
+const headers = document.getElementsByTagName("h1")
+
+for (let i=0;i<headers.length;i++){
+
+    //Generating a random value based on the array length
+    headers[i].innerText = "Gold Fish!"
+
+}
