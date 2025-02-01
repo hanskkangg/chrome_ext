@@ -1,7 +1,17 @@
 {
     "manifest_version" :"1.0",
     "name":"WillSmith",
-    "version":"1.0.0"
+    "version":"1.0.0",
+    "content_scripts" :[
+        
+        {
+        "matches": ["<all_urls>"],
+        "js":["content.js"]
+        }
+
+
+    ]
+
 
 
 }
